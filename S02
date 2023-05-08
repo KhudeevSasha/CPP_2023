@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a, b;
+    a = 19; b = 3;
+    int A = a / b, B = a % b;
+    cout << "A = " << A << endl;
+    cout << "B = " << B << endl;
+}
