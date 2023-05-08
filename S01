@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a = 15; //целочисленный
+    float b = 5; //с плавающей запятой
+    string e = "t"; //символьный
+    bool f = true; // логический
+    cout<<"a="<<a<<"\n"<<"b="<<b<<"\n"<<"e="<<e<<"\n"<<"f="<<f<<endl;
+    cout << a + b << endl;
+    cout << a / b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+return 0;
+}
