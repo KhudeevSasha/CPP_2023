@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+
 using namespace std;
 
 float Area(float a, int b){
@@ -10,12 +11,13 @@ float Area(float a, int b){
         cout << "Площадь равна:" << S;
     return S;
 };
+
 int main(){
     setlocale(0, "Russian");
     int A, N;
     cout<<"Введите длину: ";
     cin >> A;
     cout << "Введите число сторон: ";
-    cin >>N;
+    cin >> N;
     Area(A, N);
 };
