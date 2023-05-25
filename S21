@@ -1,0 +1,19 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    setlocale (0, "Russian");
+    int A, B;
+    cout << "Введите два числа (A < B): ";
+    cin >> A >> B;
+
+    ofstream out("output.txt");
+    for (int i=A; i<=B; ++i){
+        out<<i*3<<endl;
+    }
+    out.close();
+
+    cout << "Значения файле 'out.txt' " ;
+    return 0;
+}
